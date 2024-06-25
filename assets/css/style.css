@@ -148,3 +148,8 @@ body{
         
     }
 }
+
+.navbar .navbar-toggler{
+    color: white;
+    background-color:var(--sec-color);
+}
