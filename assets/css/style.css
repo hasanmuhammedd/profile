@@ -58,6 +58,16 @@ body{
  .landing{
     background-color:var(--main-color) ;
     min-height: calc(100vh - 74px);
+
+    p{
+        font-size: 22px;
+        margin-top: 1.5rem;
+    }
+    span{
+        color: #5A72A0;
+        font-size: 2rem;
+        font-weight: bold;
+    }
  }
 
  
@@ -146,6 +156,16 @@ body{
     &:hover{
         color: #697fa8;
         
+    }
+}
+
+.our-work .work-btn{
+    background-color: #5A72A0;
+    color: white;
+    font-size: .8rem;
+    transition: .3s ease-in-out;
+    &:hover{
+        background-color: #83B4FF;
     }
 }
 
