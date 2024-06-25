@@ -1,0 +1,150 @@
+:root{
+    --main-color:#1A2130;
+    --sec-color:#5A72A0;
+    --btn-color:#83B4FF;
+    --text-color:#ffffff;
+}
+
+
+body{
+    height: auto;
+    
+
+
+
+    .main-btn{
+         background-color: var(--sec-color);
+    width: 15rem;
+    height: 3rem;
+    margin-top: 2rem;
+    color: var(--text-color);
+    transition: .3s ease-in-out;
+    &:hover{
+        background-color: var(--btn-color);
+    }
+  
+    }
+}
+.navbar{
+    background-color:var(--main-color);
+}
+.navbar .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+}
+
+.navbar .navbar-brand:hover{
+   color: rgb(86, 106, 124);
+}
+.navbar .navbar-nav .nav-link{
+    color: var(--text-color);
+}
+
+.navbar .navbar-nav .nav-link .active{
+    color: var(--sec-color);
+}
+.navbar .navbar-nav .nav-link:focus{
+    color: var(--sec-color);
+}
+.navbar .navbar-nav .nav-link:hover{
+    color:var(--sec-color);
+    transition: .5s ease-in-out;
+}  
+ .navbar .search{
+    border-left:1px solid var(--sec-color);
+    color: var(--sec-color);
+ }  
+
+ .landing{
+    background-color:var(--main-color) ;
+    min-height: calc(100vh - 74px);
+ }
+
+ 
+ 
+.social-media .icon{
+    font-size: 2.8rem;
+    margin: 1rem;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    color: var(--text-color);
+
+    &:hover{
+        font-size: 3rem;
+        color:  var(--sec-color);
+    }
+}
+
+.h{
+    width: 4rem;
+    
+}
+.contact{
+    
+        background-color:#EEEEEE;
+        
+        
+     label{
+        font-size: 2rem;
+        
+     }
+     input{
+        color: black;
+        border-radius: 5rem;
+       
+       
+}}
+
+.our-work ul .active{
+    background-color: var(--sec-color);
+    color: var(--text-color);
+}
+
+.our-work ul li{
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+}
+.our-work ul li:not(.active):hover{
+    color:var(--sec-color);
+    
+    
+}
+
+.our-work .box{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.our-work .box::before {
+    content: attr(data-work);
+    position: absolute;
+    background-color: #5a72a0c9;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--text-color);
+    transition: 0.5s;
+    font-size: 1.5rem;
+    transform: translateX(calc(-100% - 5px)); 
+}
+
+.our-work .box:hover::before {
+    transform: translateX(0); 
+}
+
+.devs{
+    width: 17%;
+}
+
+.stuff .devo{
+    transition: .3s ease-in-out;
+    &:hover{
+        color: #697fa8;
+        
+    }
+}
