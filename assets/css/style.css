@@ -173,3 +173,29 @@ body{
     color: white;
     background-color:var(--sec-color);
 }
+
+.subscribe{
+    background-color: rgb(245, 229, 161);
+    
+}
+
+.subscribe input[type="text"]{
+    border: none;
+    border-bottom: 1px solid white;
+}
+.subscribe input[type="text"]:focus{
+    outline: none;
+}
+.subscribe ::placeholder{
+    color: white;
+}
+
+.subscribe input[type="Submit"]{
+    background-color: var(--main-color);
+    color: rgb(255, 239, 165);
+    transition: .5s ease-in-out;
+    &:hover{
+        background-color: #5A72A0;
+        color: white;
+    }
+}
