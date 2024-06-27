@@ -30,7 +30,7 @@ body{
 }
 .navbar .navbar-brand{
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .navbar .navbar-brand:hover{
@@ -199,3 +199,9 @@ body{
         color: white;
     }
 }
+
+.footer{
+    background-color: var(--main-color);
+    .f-icon{
+        font-size: 1.5rem;
+    }}
